@@ -26,6 +26,7 @@ p {
 }
 
 a {
+    color: #0848e9;
     text-decoration: none;
     position: relative;
     transition: opacity 300ms ease;
