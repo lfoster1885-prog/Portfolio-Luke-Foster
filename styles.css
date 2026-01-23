@@ -35,10 +35,6 @@ i:hover {
     opacity: 0.7;
 }
 
-i:hover {
-  opacity: 0.7;
-}
-
 .link__hover-effect:after {
     content: "";
     position: absolute;
@@ -84,8 +80,8 @@ li {
     padding: 0 12px;
 }
 
-.text--purple {
-    color: #6030b1;
+.text--blue {
+    color: #1b0f9e;
 }
 
 section:nth-child(even) {
@@ -120,19 +116,19 @@ nav {
 }
 
 .nav__link--anchor-primary {
-    background-color: #6030b1;
+    background-color: #1b0f9e;
     padding: 8px 12px;
     border-radius: 50px;
     color: white;
 }
 
 .nav__link--anchor-primary:hover {
-    background-color: #5d3eff;
+    background-color: #0848e9;
 }
 
 .personal__logo {
     font-size: 24px;
-    color: #6030b1;
+    color: #1b0f9e;
     margin: 0 12px; 
     font-weight: bold;
 }
@@ -183,7 +179,7 @@ nav {
 .about-me__picture {
     width: 100%;
     transform: scale(1.5);
-    padding-top: 8px;
+    padding-top: 16px;
 }
 
 .about-me__info--title {
@@ -225,8 +221,9 @@ nav {
 }
 
 .about-me__img {
+    padding-top: 40px;
     width: 100%;
-    animation: fade-in 1200ms 800ms backwards;
+    animation: fade-in 1600ms 800ms backwards;
 
 }
 
